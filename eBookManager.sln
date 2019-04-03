@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManager", "eBookManager\eBookManager.csproj", "{4EC86B74-27B2-40BC-B7A5-117EAC0FC3A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManager.Engine", "eBookManager.Engine\eBookManager.Engine.csproj", "{1A50095B-69D5-49CB-B20C-C000375B1102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBookManager.Helper", "eBookManager.Helper\eBookManager.Helper.csproj", "{C491113F-24CC-4585-AEA3-6155A8C19598}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4EC86B74-27B2-40BC-B7A5-117EAC0FC3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EC86B74-27B2-40BC-B7A5-117EAC0FC3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EC86B74-27B2-40BC-B7A5-117EAC0FC3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A50095B-69D5-49CB-B20C-C000375B1102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A50095B-69D5-49CB-B20C-C000375B1102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A50095B-69D5-49CB-B20C-C000375B1102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A50095B-69D5-49CB-B20C-C000375B1102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C491113F-24CC-4585-AEA3-6155A8C19598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C491113F-24CC-4585-AEA3-6155A8C19598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C491113F-24CC-4585-AEA3-6155A8C19598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C491113F-24CC-4585-AEA3-6155A8C19598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
