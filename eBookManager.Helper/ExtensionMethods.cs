@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eBookManager.Engine
+namespace eBookManager.Helper
 {
     public static class ExtensionMethods
     {

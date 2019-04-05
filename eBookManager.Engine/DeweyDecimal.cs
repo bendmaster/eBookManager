@@ -1,4 +1,4 @@
-﻿namespace eBookManager.Engine
+﻿namespace eBookManager.Helper
 {
     public class DeweyDecimal
     {
