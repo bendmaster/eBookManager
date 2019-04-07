@@ -22,5 +22,7 @@ namespace eBookManager.Helper
         public DateTime PublishDate { get; set; }
         public DeweyDecimal Classification { get; set; }
         public string Category { get; set; }
+        private HashSet<string> AllowedExtensions => new HashSet<string>(StringComparer.InvariantCultureIgnoreCase) { ".docx", ".pdf", ".doc", ".epub" };
+        private enum Extention { doc=0, docx=1, pdf=2, epub=3}
     }
 }
